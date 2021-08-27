@@ -9,7 +9,7 @@ Scripts para interactuar con las API de Google, sin autenticar por OAuth, utiliz
 ## Crear una cuenta de servicio:
 
 * Primero debes crear un proyecto en Google Cloud
-* Luego debes habilitar dentro de "Api y servicios" la api: "Google Calendar Api"
+* Luego debes habilitar dentro de "Api y servicios" la api: "Google Calendar Api", "Google Sheets Api", "Google Drive Api"
 * Crea una credencial de cuenta de servicio, habilita la cuenta para delegación en todo dominio y genera una calve, al generar la calve se guardara un archivo .JSON, guardalo para su uso en los scripts
 
 ## Crear eventos en un calendario:
@@ -28,7 +28,7 @@ Si todo fue realizado correctamente, deberias ver el evento creado en el calenda
 
 * Al utilizar una cuenta de servicio no sera necesario autenticar con OAuth, pero no podras realizar acciones como agregar invitados a los eventos
 
-## Crear eventos en un calendario:
+## Modificar hojas de calculo en Drive
 * En la cuenta de servicio que acabas de crear tendras un correo electronico, invita este correo a la hoja de calculo
 * Ejecuta el script para conectarte, podras manipular los datos como cualquier hoja de calculo, ejemplo con Pandas. Tambien puedes modificar los valores, solo tienes que buscar en la documentación
 
