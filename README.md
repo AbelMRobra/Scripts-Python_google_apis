@@ -28,3 +28,7 @@ Si todo fue realizado correctamente, deberias ver el evento creado en el calenda
 
 * Al utilizar una cuenta de servicio no sera necesario autenticar con OAuth, pero no podras realizar acciones como agregar invitados a los eventos
 
+## Crear eventos en un calendario:
+* En la cuenta de servicio que acabas de crear tendras un correo electronico, invita este correo a la hoja de calculo
+* Ejecuta el script para conectarte, podras manipular los datos como cualquier hoja de calculo, ejemplo con Pandas. Tambien puedes modificar los valores, solo tienes que buscar en la documentación
+
